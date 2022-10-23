@@ -93,6 +93,7 @@ OLAS_EXTERNAL_OBJECTS =
 OLAS: CMakeFiles/OLAS.dir/main.cpp.o
 OLAS: CMakeFiles/OLAS.dir/build.make
 OLAS: Adder/libadder.a
+OLAS: plusone/libplusone.a
 OLAS: CMakeFiles/OLAS.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/danielsilva/Documents/bloomberg/c++/cmake/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OLAS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OLAS.dir/link.txt --verbose=$(VERBOSE)

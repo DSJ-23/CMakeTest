@@ -1,6 +1,6 @@
 #include "plusone.h"
 
-int plusOne(int a){
+int plusone(int a){
     return a + 1;
 }
 

@@ -1,1 +1,1 @@
-add_library(plusone plusone.cpp)
+add_library(plusone plusone.cpp plusone.h)
