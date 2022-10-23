@@ -117,42 +117,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-plusone/CMakeFiles/plusOne.dir/rule:
-	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusone/CMakeFiles/plusOne.dir/rule
-.PHONY : plusone/CMakeFiles/plusOne.dir/rule
+plusone/CMakeFiles/plusone.dir/rule:
+	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusone/CMakeFiles/plusone.dir/rule
+.PHONY : plusone/CMakeFiles/plusone.dir/rule
 
 # Convenience name for target.
-plusOne: plusone/CMakeFiles/plusOne.dir/rule
-.PHONY : plusOne
+plusone: plusone/CMakeFiles/plusone.dir/rule
+.PHONY : plusone
 
 # fast build rule for target.
-plusOne/fast:
-	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusOne.dir/build.make plusone/CMakeFiles/plusOne.dir/build
-.PHONY : plusOne/fast
+plusone/fast:
+	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusone.dir/build.make plusone/CMakeFiles/plusone.dir/build
+.PHONY : plusone/fast
 
-plusOne.o: plusOne.cpp.o
-.PHONY : plusOne.o
+plusone.o: plusone.cpp.o
+.PHONY : plusone.o
 
 # target to build an object file
-plusOne.cpp.o:
-	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusOne.dir/build.make plusone/CMakeFiles/plusOne.dir/plusOne.cpp.o
-.PHONY : plusOne.cpp.o
+plusone.cpp.o:
+	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusone.dir/build.make plusone/CMakeFiles/plusone.dir/plusone.cpp.o
+.PHONY : plusone.cpp.o
 
-plusOne.i: plusOne.cpp.i
-.PHONY : plusOne.i
+plusone.i: plusone.cpp.i
+.PHONY : plusone.i
 
 # target to preprocess a source file
-plusOne.cpp.i:
-	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusOne.dir/build.make plusone/CMakeFiles/plusOne.dir/plusOne.cpp.i
-.PHONY : plusOne.cpp.i
+plusone.cpp.i:
+	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusone.dir/build.make plusone/CMakeFiles/plusone.dir/plusone.cpp.i
+.PHONY : plusone.cpp.i
 
-plusOne.s: plusOne.cpp.s
-.PHONY : plusOne.s
+plusone.s: plusone.cpp.s
+.PHONY : plusone.s
 
 # target to generate assembly for a file
-plusOne.cpp.s:
-	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusOne.dir/build.make plusone/CMakeFiles/plusOne.dir/plusOne.cpp.s
-.PHONY : plusOne.cpp.s
+plusone.cpp.s:
+	cd /Users/danielsilva/Documents/bloomberg/c++/cmake/out/build && $(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusone.dir/build.make plusone/CMakeFiles/plusone.dir/plusone.cpp.s
+.PHONY : plusone.cpp.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... plusOne"
-	@echo "... plusOne.o"
-	@echo "... plusOne.i"
-	@echo "... plusOne.s"
+	@echo "... plusone"
+	@echo "... plusone.o"
+	@echo "... plusone.i"
+	@echo "... plusone.s"
 .PHONY : help
 
 

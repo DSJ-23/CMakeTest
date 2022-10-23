@@ -143,17 +143,17 @@ adder/fast:
 .PHONY : adder/fast
 
 #=============================================================================
-# Target rules for targets named plusOne
+# Target rules for targets named plusone
 
 # Build rule for target.
-plusOne: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusOne
-.PHONY : plusOne
+plusone: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusone
+.PHONY : plusone
 
 # fast build rule for target.
-plusOne/fast:
-	$(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusOne.dir/build.make plusone/CMakeFiles/plusOne.dir/build
-.PHONY : plusOne/fast
+plusone/fast:
+	$(MAKE) $(MAKESILENT) -f plusone/CMakeFiles/plusone.dir/build.make plusone/CMakeFiles/plusone.dir/build
+.PHONY : plusone/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -189,7 +189,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OLAS"
 	@echo "... adder"
-	@echo "... plusOne"
+	@echo "... plusone"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
